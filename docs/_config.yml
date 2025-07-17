@@ -1,0 +1,30 @@
+title: Tiation macOS Toolkit
+description: Enterprise-grade macOS terminal productivity toolkit with intelligent zsh completions
+url: https://tiation.github.io/mac-zsh-completions
+baseurl: /mac-zsh-completions
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Site settings
+author:
+  name: Tiation Team
+  email: tiatheone@protonmail.com
+
+# GitHub Pages settings
+repository: tiation/mac-zsh-completions
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
