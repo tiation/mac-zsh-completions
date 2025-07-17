@@ -1,7 +1,7 @@
 title: Tiation macOS Toolkit
 description: Enterprise-grade macOS terminal productivity toolkit with intelligent zsh completions
-url: https://tiation.github.io/mac-zsh-completions
-baseurl: /mac-zsh-completions
+url: https://tiation.github.io/tiation-macos-toolkit
+baseurl: /tiation-macos-toolkit
 
 # Build settings
 markdown: kramdown
@@ -17,7 +17,7 @@ author:
   email: tiatheone@protonmail.com
 
 # GitHub Pages settings
-repository: tiation/mac-zsh-completions
+repository: tiation/tiation-macos-toolkit
 
 # Exclude from processing
 exclude:

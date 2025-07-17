@@ -67,7 +67,7 @@ Welcome to the Tiation macOS Toolkit! This comprehensive collection provides int
 
 ```zsh
 # Clone the repository
-git clone https://github.com/tiation/mac-zsh-completions.git ~/.tiation-macos-toolkit
+git clone https://github.com/tiation/tiation-macos-toolkit.git ~/.tiation-macos-toolkit
 
 # Add to your .zshrc
 echo 'fpath=(~/.tiation-macos-toolkit/completions $fpath)' >> ~/.zshrc
@@ -80,7 +80,7 @@ source ~/.zshrc
 ### Installation Demo
 
 ```bash
-$ git clone https://github.com/tiation/mac-zsh-completions.git ~/.tiation-macos-toolkit
+$ git clone https://github.com/tiation/tiation-macos-toolkit.git ~/.tiation-macos-toolkit
 Cloning into 'tiation-macos-toolkit'...
 remote: Enumerating objects: 156, done.
 remote: Total 156 (delta 67), reused 147 (delta 58)
@@ -102,7 +102,7 @@ $ swift --[TAB]
 
 1. **Download the toolkit:**
    ```zsh
-   git clone https://github.com/tiation/mac-zsh-completions.git
+   git clone https://github.com/tiation/tiation-macos-toolkit.git
    ```
 
 2. **Update your `.zshrc`:**
@@ -123,7 +123,7 @@ $ swift --[TAB]
 
 1. **Clone as a plugin:**
    ```zsh
-   git clone https://github.com/tiation/mac-zsh-completions.git "$ZSH_CUSTOM/plugins/tiation-macos-toolkit"
+   git clone https://github.com/tiation/tiation-macos-toolkit.git "$ZSH_CUSTOM/plugins/tiation-macos-toolkit"
    ```
 
 2. **Enable the plugin:**
@@ -298,10 +298,10 @@ plugins=(other-plugins tiation-macos-toolkit)
 
 ## 📞 Support & Discussion
 
-- **Issues & Bug Reports**: [GitHub Issues](https://github.com/tiation/mac-zsh-completions/issues)
-- **Feature Requests**: [GitHub Discussions](https://github.com/tiation/mac-zsh-completions/discussions)
+- **Issues & Bug Reports**: [GitHub Issues](https://github.com/tiation/tiation-macos-toolkit/issues)
+- **Feature Requests**: [GitHub Discussions](https://github.com/tiation/tiation-macos-toolkit/discussions)
 - **Community Chat**: `#zsh` channel on [MacAdmins Slack](http://macadmins.org)
-- **Documentation**: [Wiki](https://github.com/tiation/mac-zsh-completions/wiki)
+- **Documentation**: [Wiki](https://github.com/tiation/tiation-macos-toolkit/wiki)
 
 ## 📜 License
 
@@ -328,7 +328,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 │                                                                     │
 │     Join the community • Contribute • Build amazing tools          │
 │                                                                     │
-│               github.com/tiation/mac-zsh-completions            │
+│               github.com/tiation/tiation-macos-toolkit          │
 │                                                                     │
 └─────────────────────────────────────────────────────────────────────┘
 ```

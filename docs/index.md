@@ -48,7 +48,7 @@ title: Tiation macOS Toolkit
 
 ```zsh
 # Clone the repository
-git clone https://github.com/tiation/mac-zsh-completions.git ~/.tiation-macos-toolkit
+git clone https://github.com/tiation/tiation-macos-toolkit.git ~/.tiation-macos-toolkit
 
 # Add to your .zshrc
 echo 'fpath=(~/.tiation-macos-toolkit/completions $fpath)' >> ~/.zshrc
@@ -62,7 +62,7 @@ source ~/.zshrc
 
 1. **Download the toolkit:**
    ```zsh
-   git clone https://github.com/tiation/mac-zsh-completions.git
+   git clone https://github.com/tiation/tiation-macos-toolkit.git
    ```
 
 2. **Update your `.zshrc`:**
@@ -138,10 +138,10 @@ We welcome contributions! Here's how to get started:
 
 ## Support & Discussion
 
-- **Issues & Bug Reports**: [GitHub Issues](https://github.com/tiation/mac-zsh-completions/issues)
-- **Feature Requests**: [GitHub Discussions](https://github.com/tiation/mac-zsh-completions/discussions)
+- **Issues & Bug Reports**: [GitHub Issues](https://github.com/tiation/tiation-macos-toolkit/issues)
+- **Feature Requests**: [GitHub Discussions](https://github.com/tiation/tiation-macos-toolkit/discussions)
 - **Community Chat**: `#zsh` channel on [MacAdmins Slack](http://macadmins.org)
-- **Documentation**: [Wiki](https://github.com/tiation/mac-zsh-completions/wiki)
+- **Documentation**: [Wiki](https://github.com/tiation/tiation-macos-toolkit/wiki)
 
 ## License
 
