@@ -152,3 +152,26 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
   Made with ❤️ for macOS developers and system administrators
 </div>
+
+## 📚 Additional Resources
+
+- [FAQ](faq.md) - Frequently asked questions
+- [Troubleshooting](troubleshooting.md) - Common issues and solutions
+- [Contributing](../CONTRIBUTING.md) - How to contribute to this project
+- [License](../LICENSE) - Project license information
+
+## 🎨 Theme Information
+
+This project features a **dark neon theme** with:
+- Cyan gradient flares
+- Professional enterprise styling
+- Mobile-responsive design
+- Accessibility features
+
+## 🚀 Quick Links
+
+- [GitHub Repository](https://github.com/TiaAstor/mac-zsh-completions)
+- [Live Demo](https://tiaastor.github.io/mac-zsh-completions)
+- [Documentation](https://github.com/TiaAstor/mac-zsh-completions/wiki)
+- [Issues](https://github.com/TiaAstor/mac-zsh-completions/issues)
+
