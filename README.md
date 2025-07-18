@@ -1,336 +1,318 @@
-# Tiation macOS Toolkit
+# Project Name
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                    🚀 Tiation macOS Toolkit                        │
-│                                                                     │
-│  Enterprise-grade macOS terminal productivity toolkit               │
-│  with intelligent zsh completions for developers                   │
-│                                                                     │
-│  ✨ Features: Swift, Xcode, BBEdit, GitHub CLI, Jamf Pro & more   │
-└─────────────────────────────────────────────────────────────────────┘
-```
-
-**Enterprise-grade macOS terminal productivity toolkit with intelligent zsh completions**
-
-Welcome to the Tiation macOS Toolkit! This comprehensive collection provides intelligent zsh completion files for macOS-specific commands and third-party developer tools, dramatically enhancing your terminal productivity.
-
-## 🚀 Features
+<!-- Hero Image with Dark Neon Theme -->
+<div align="center">
+  <img src=".screenshots/hero-banner.png" alt="Project Hero Banner" width="100%">
+</div>
 
 <div align="center">
-
-| 🔧 **Developer Tools** | ⚙️ **System Administration** | 📱 **Mobile Development** | 🎯 **Enterprise Ready** |
-|-------------------------|-------------------------------|---------------------------|-------------------------|
-| Swift compiler & REPL  | Package installer             | Xcode integration         | Jamf Pro management     |
-| BBEdit integration      | Software updates              | iOS development           | Policy management        |
-| GitHub CLI support      | Property list utilities       | macOS app creation        | Device enrollment        |
-| Project management      | System configuration          | Simulator control         | Compliance tools         |
+  
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-00D9FF?style=for-the-badge&logo=github&logoColor=white)](https://tiaastor.github.io/mac-zsh-completions)
+[![Documentation](https://img.shields.io/badge/Documentation-Complete-00FF88?style=for-the-badge&logo=gitbook&logoColor=white)](https://github.com/TiaAstor/mac-zsh-completions/wiki)
+[![License](https://img.shields.io/badge/License-MIT-FF0080?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
 
 </div>
 
-- **🔧 Developer Tools**: Comprehensive completions for Xcode, Swift, BBEdit, and development utilities
-- **⚙️ System Administration**: Complete coverage of macOS system commands like `installer`, `softwareupdate`, `plutil`
-- **📱 Mobile Development**: Full support for iOS/macOS development workflows
-- **🎯 Enterprise Ready**: Streamlined for professional development environments
-- **🔄 Regular Updates**: Continuously updated with new tools and enhancements
+## 🚀 About
 
-## 📦 Available Completions
+**Brief, compelling description of what this project does and why it matters.**
 
-### Development Tools
-| Tool | Description | Status |
-|------|-------------|--------|
-| `swift` | Swift compiler and REPL | ✅ Complete |
-| `xed` | Xcode text editor | ✅ Complete |
-| `xcrun` | Xcode command line tools | ✅ Complete |
-| `bbedit` | BBEdit text editor | ✅ Complete |
+<div align="center">
+  <img src=".screenshots/demo-overview.png" alt="Project Overview" width="80%">
+</div>
 
-### System Utilities
-| Tool | Description | Status |
-|------|-------------|--------|
-| `installer` | macOS package installer | ✅ Complete |
-| `softwareupdate` | System update utility | ✅ Complete |
-| `plutil` | Property list utility | ✅ Complete |
-| `PlistBuddy` | Property list editor | ✅ Complete |
+---
 
-### Third-Party Tools
-| Tool | Description | Status |
-|------|-------------|--------|
-| `gh` | GitHub CLI | ✅ Complete |
-| `jamf` | Jamf Pro management | ✅ Complete |
-| `desktoppr` | Desktop management | ✅ Complete |
-| `see` | File viewer utility | ✅ Complete |
-| `project` | Project management | ✅ Complete |
+## ✨ Features
 
-## 🛠 Installation
+<!-- Feature showcase with screenshots -->
+<table>
+  <tr>
+    <td width="50%">
+      <h3>🎯 Key Feature 1</h3>
+      <img src=".screenshots/feature-1.png" alt="Feature 1 Screenshot" width="100%">
+      <p>Description of feature 1 with benefits</p>
+    </td>
+    <td width="50%">
+      <h3>⚡ Key Feature 2</h3>
+      <img src=".screenshots/feature-2.png" alt="Feature 2 Screenshot" width="100%">
+      <p>Description of feature 2 with benefits</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>🔥 Key Feature 3</h3>
+      <img src=".screenshots/feature-3.png" alt="Feature 3 Screenshot" width="100%">
+      <p>Description of feature 3 with benefits</p>
+    </td>
+    <td width="50%">
+      <h3>🌟 Key Feature 4</h3>
+      <img src=".screenshots/feature-4.png" alt="Feature 4 Screenshot" width="100%">
+      <p>Description of feature 4 with benefits</p>
+    </td>
+  </tr>
+</table>
 
-### Quick Install (Recommended)
+---
 
-```zsh
+## 🎨 Live Demo
+
+<div align="center">
+  <a href="https://tiaastor.github.io/mac-zsh-completions" target="_blank">
+    <img src=".screenshots/demo-preview.png" alt="Live Demo Preview" width="80%">
+  </a>
+  <br>
+  <a href="https://tiaastor.github.io/mac-zsh-completions" target="_blank">
+    <img src="https://img.shields.io/badge/🔗%20View%20Live%20Demo-00D9FF?style=for-the-badge&logo=github&logoColor=white" alt="View Live Demo">
+  </a>
+</div>
+
+---
+
+## 🏗️ Architecture
+
+<div align="center">
+  <img src=".screenshots/architecture-diagram.png" alt="Architecture Diagram" width="90%">
+</div>
+
+### System Components
+
+- **Component 1**: Description and purpose
+- **Component 2**: Description and purpose
+- **Component 3**: Description and purpose
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+```bash
+# List prerequisites here
+node --version  # >= 18.0.0
+npm --version   # >= 8.0.0
+```
+
+### Installation
+
+```bash
 # Clone the repository
-git clone https://github.com/tiation/tiation-macos-toolkit.git ~/.tiation-macos-toolkit
+git clone https://github.com/TiaAstor/mac-zsh-completions.git
+cd mac-zsh-completions
 
-# Add to your .zshrc
-echo 'fpath=(~/.tiation-macos-toolkit/completions $fpath)' >> ~/.zshrc
-echo 'autoload -U compinit && compinit' >> ~/.zshrc
+# Install dependencies
+npm install
 
-# Reload your shell
-source ~/.zshrc
+# Start development server
+npm run dev
 ```
 
-### Installation Demo
+### Development Workflow
 
-```bash
-$ git clone https://github.com/tiation/tiation-macos-toolkit.git ~/.tiation-macos-toolkit
-Cloning into 'tiation-macos-toolkit'...
-remote: Enumerating objects: 156, done.
-remote: Total 156 (delta 67), reused 147 (delta 58)
-Receiving objects: 100% (156/156), 45.23 KiB | 1.88 MiB/s, done.
-Resolving deltas: 100% (67/67), done.
+<div align="center">
+  <img src=".screenshots/development-workflow.png" alt="Development Workflow" width="70%">
+</div>
 
-$ echo 'fpath=(~/.tiation-macos-toolkit/completions $fpath)' >> ~/.zshrc
-$ source ~/.zshrc
-✅ Installation complete!
+---
 
-$ swift --[TAB]
---build-path          --configuration        --destination
---enable-test-discovery --package-path      --verbose
-```
+## 📱 Screenshots
 
-![Toolkit Demo](screenshots/toolkit-demo.png)
+### Desktop Interface
 
-### Manual Installation
+<div align="center">
+  <img src=".screenshots/desktop-interface.png" alt="Desktop Interface" width="100%">
+</div>
 
-1. **Download the toolkit:**
-   ```zsh
-   git clone https://github.com/tiation/tiation-macos-toolkit.git
-   ```
+### Mobile Interface
 
-2. **Update your `.zshrc`:**
-   ```zsh
-   # Add to your .zshrc file
-   fpath=(/path/to/tiation-macos-toolkit/completions $fpath)
-   autoload -U compinit && compinit
-   ```
+<div align="center">
+  <img src=".screenshots/mobile-interface.png" alt="Mobile Interface" width="60%">
+</div>
 
-3. **Reload your configuration:**
-   ```zsh
-   source ~/.zshrc
-   # If needed, clear completion cache
-   rm ~/.zcompdump && compinit
-   ```
+### Dark Theme
 
-### Install via [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/)
+<div align="center">
+  <img src=".screenshots/dark-theme.png" alt="Dark Theme Interface" width="100%">
+</div>
 
-1. **Clone as a plugin:**
-   ```zsh
-   git clone https://github.com/tiation/tiation-macos-toolkit.git "$ZSH_CUSTOM/plugins/tiation-macos-toolkit"
-   ```
+---
 
-2. **Enable the plugin:**
-   ```zsh
-   # In your ~/.zshrc
-   plugins=(... tiation-macos-toolkit)
-   ```
+## 🛠️ Technology Stack
 
-3. **Restart your shell:**
-   ```zsh
-   source ~/.zshrc
-   ```
+<div align="center">
+  <img src=".screenshots/tech-stack.png" alt="Technology Stack" width="80%">
+</div>
 
-## 🎯 Usage Examples
+- **Frontend**: React, TypeScript, Tailwind CSS
+- **Backend**: Node.js, Express
+- **Database**: PostgreSQL
+- **Deployment**: Docker, GitHub Actions
 
-### Swift Development
-```zsh
-# Tab completion for Swift compiler options
-swift build --<TAB>
-# Shows: --build-path, --configuration, --verbose, etc.
+---
 
-# Tab completion for Swift package manager
-swift package <TAB>
-# Shows: init, build, test, clean, etc.
-```
+## 📊 Performance Metrics
 
-### Xcode Tools
-```zsh
-# Tab completion for xed (Xcode editor)
-xed --<TAB>
-# Shows: --create, --line, --column, etc.
+<div align="center">
+  <img src=".screenshots/performance-metrics.png" alt="Performance Metrics" width="90%">
+</div>
 
-# Tab completion for xcrun
-xcrun --<TAB>
-# Shows: --sdk, --toolchain, --find, etc.
-```
-
-### System Administration
-```zsh
-# Tab completion for installer
-installer -pkg <TAB>
-# Shows available .pkg files
-
-# Tab completion for softwareupdate
-softwareupdate --<TAB>
-# Shows: --list, --install, --download, etc.
-```
-
-### Interactive Usage Demo
-
-```bash
-# Swift Development
-$ swift build --[TAB]
---build-path          --configuration        --destination
---enable-test-discovery --package-path      --verbose
-
-$ swift package [TAB]
-clean    describe    init      resolve     test      update
-
-# Xcode Tools
-$ xed --[TAB]
---create    --line      --column    --wait     --find
-
-$ xcrun --[TAB]
---sdk       --toolchain --find      --show-sdk-path
-
-# System Administration
-$ installer -pkg [TAB]
-MyApp.pkg   Updates.pkg   Tools.pkg
-
-$ softwareupdate --[TAB]
---install   --list      --download  --history   --schedule
-```
-
-![Completion Demo](screenshots/completion-demo.png)
+---
 
 ## 🔧 Configuration
 
-### Custom Completion Paths
+### Environment Variables
 
-You can customize the completion behavior by setting environment variables:
-
-```zsh
-# In your .zshrc
-export TIATION_TOOLKIT_VERBOSE=1  # Enable verbose completion
-export TIATION_TOOLKIT_CACHE=1    # Enable completion caching
+```env
+# Copy to .env.local
+NODE_ENV=development
+DATABASE_URL=postgresql://username:password@localhost:5432/database
+API_KEY=your-api-key-here
 ```
 
-### Performance Optimization
+### Configuration Screenshots
 
-For better performance with large projects:
+<div align="center">
+  <img src=".screenshots/configuration-setup.png" alt="Configuration Setup" width="70%">
+</div>
 
-```zsh
-# Enable completion caching
-zstyle ':completion:*' use-cache on
-zstyle ':completion:*' cache-path ~/.zsh/cache
-```
-
-## 🚀 Advanced Features
-
-### Intelligent Context Awareness
-- Completions adapt based on current directory context
-- Project-specific completions for Xcode projects
-- Git repository awareness for development tools
-
-### Enterprise Integration
-- Jamf Pro management tool completions
-- Enterprise deployment script support
-- System administration utilities
-
-## 🤝 Contributing
-
-We welcome contributions! Here's how to get started:
-
-1. **Fork the repository**
-2. **Create a feature branch:** `git checkout -b feature/new-completion`
-3. **Add your completion file** to the `completions/` directory
-4. **Test thoroughly** with various scenarios
-5. **Submit a pull request** with detailed description
-
-### Completion File Guidelines
-
-- Follow zsh completion conventions
-- Include comprehensive option coverage
-- Add context-aware completions where possible
-- Document any special requirements
-
-## 📋 Roadmap
-
-### Coming Soon
-- [ ] `xcodebuild` - Xcode build system
-- [ ] `diskutil` - Disk utility management
-- [ ] `launchctl` - Launch daemon control
-- [ ] `profiles` - Configuration profiles
-- [ ] `tccutil` - Transparency, Consent, and Control
-
-### Under Development
-- [ ] `log` - macOS unified logging
-- [ ] `sysadminctl` - System administration
-- [ ] `tmutil` - Time Machine utility
-- [ ] `createinstallmedia` - macOS installer creation
+---
 
 ## 📚 Documentation
 
-- [Installation Guide](docs/installation.md)
-- [Usage Examples](docs/usage.md)
-- [Contributing Guidelines](docs/contributing.md)
-- [API Reference](docs/api.md)
+<div align="center">
+  <a href="https://github.com/TiaAstor/mac-zsh-completions/wiki" target="_blank">
+    <img src=".screenshots/documentation-preview.png" alt="Documentation Preview" width="80%">
+  </a>
+  <br>
+  <a href="https://github.com/TiaAstor/mac-zsh-completions/wiki" target="_blank">
+    <img src="https://img.shields.io/badge/📖%20Full%20Documentation-00FF88?style=for-the-badge&logo=gitbook&logoColor=white" alt="Full Documentation">
+  </a>
+</div>
 
-## 🐛 Troubleshooting
+### Quick Links
 
-### Common Issues
+- [📘 User Guide](docs/user-guide.md)
+- [🔧 API Reference](docs/api-reference.md)
+- [🏗️ Architecture Guide](docs/architecture.md)
+- [🚀 Deployment Guide](docs/deployment.md)
 
-**Completions not working:**
-```zsh
-# Clear completion cache
-rm ~/.zcompdump
-compinit
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+
+<div align="center">
+  <img src=".screenshots/contribution-workflow.png" alt="Contribution Workflow" width="70%">
+</div>
+
+### Development Setup
+
+```bash
+# Fork the repository
+git clone https://github.com/your-username/mac-zsh-completions.git
+cd mac-zsh-completions
+
+# Create feature branch
+git checkout -b feature/amazing-feature
+
+# Make changes and commit
+git commit -m "Add amazing feature"
+
+# Push to branch
+git push origin feature/amazing-feature
 ```
 
-**Slow completion performance:**
-```zsh
-# Enable completion caching
-zstyle ':completion:*' use-cache on
+---
+
+## 🧪 Testing
+
+<div align="center">
+  <img src=".screenshots/testing-dashboard.png" alt="Testing Dashboard" width="80%">
+</div>
+
+```bash
+# Run all tests
+npm test
+
+# Run tests with coverage
+npm run test:coverage
+
+# Run end-to-end tests
+npm run test:e2e
 ```
 
-**Conflicts with other plugins:**
-```zsh
-# Load tiation-macos-toolkit last in your plugins array
-plugins=(other-plugins tiation-macos-toolkit)
+---
+
+## 🚀 Deployment
+
+<div align="center">
+  <img src=".screenshots/deployment-pipeline.png" alt="Deployment Pipeline" width="90%">
+</div>
+
+### Production Deployment
+
+```bash
+# Build for production
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
 ```
 
-## 📞 Support & Discussion
+---
 
-- **Issues & Bug Reports**: [GitHub Issues](https://github.com/tiation/tiation-macos-toolkit/issues)
-- **Feature Requests**: [GitHub Discussions](https://github.com/tiation/tiation-macos-toolkit/discussions)
-- **Community Chat**: `#zsh` channel on [MacAdmins Slack](http://macadmins.org)
-- **Documentation**: [Wiki](https://github.com/tiation/tiation-macos-toolkit/wiki)
+## 📈 Roadmap
 
-## 📜 License
+<div align="center">
+  <img src=".screenshots/roadmap.png" alt="Project Roadmap" width="90%">
+</div>
+
+- [x] Core functionality
+- [x] Dark theme implementation
+- [ ] Mobile app version
+- [ ] Advanced analytics
+- [ ] Third-party integrations
+
+---
+
+## 📞 Support
+
+<div align="center">
+  <img src=".screenshots/support-channels.png" alt="Support Channels" width="70%">
+</div>
+
+- 📧 **Email**: [support@example.com](mailto:support@example.com)
+- 💬 **Discord**: [Join our community](https://discord.gg/example)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/TiaAstor/mac-zsh-completions/issues)
+- 📖 **Wiki**: [Documentation](https://github.com/TiaAstor/mac-zsh-completions/wiki)
+
+---
+
+## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+---
 
-- Original project by [scriptingosx](https://github.com/scriptingosx)
-- macOS development community
-- Contributors and testers
+## 🌟 Acknowledgments
+
+<div align="center">
+  <img src=".screenshots/acknowledgments.png" alt="Acknowledgments" width="60%">
+</div>
+
+- Thanks to all contributors
+- Special thanks to the open-source community
+- Inspired by modern development practices
 
 ---
 
 <div align="center">
-
-**Made with ❤️ for macOS developers and system administrators**
-
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                                                                     │
-│             🚀 Tiation macOS Toolkit                               │
-│                                                                     │
-│  🔧 Enterprise-grade  📱 Developer-focused  ⚙️ System-ready        │
-│                                                                     │
-│     Join the community • Contribute • Build amazing tools          │
-│                                                                     │
-│               github.com/tiation/tiation-macos-toolkit          │
-│                                                                     │
-└─────────────────────────────────────────────────────────────────────┘
-```
-
+  <img src=".screenshots/footer-banner.png" alt="Footer Banner" width="100%">
+  
+  **⭐ Star this repository if you find it helpful! ⭐**
+  
+  <a href="https://github.com/TiaAstor/mac-zsh-completions">
+    <img src="https://img.shields.io/github/stars/TiaAstor/mac-zsh-completions?style=social&label=Star&maxAge=2592000" alt="GitHub Stars">
+  </a>
 </div>
